@@ -1,5 +1,5 @@
-def saludo1():
-    print("Hola buenos dias encantado")
+def saludo1(nombre):
+    print(f"Hola buenos dias {nombre} encantado")
 
 def saludo2():
     print("buenas tardes capullo")
@@ -8,15 +8,16 @@ def saludo2():
 def saludo3():
     print("hola caracola")
 
-def despedirse():
-    print("chao pescao")
+def despedirse(nombre):
+    print(f"que te jodan {nombre}")
 
 
 
 opcion = input("introduces una opcion (1,2,3 o 4): ")
 
 if opcion == "1":
-    saludo1()
+    nombre = input("introduce tu nombre: ")
+    saludo1(nombre)
     input("presione enter para continuar")
 elif opcion == "3":
     saludo2()
@@ -25,5 +26,6 @@ elif opcion == "3":
     saludo2()
     input("presione enter para continuar")
 elif opcion == "4":
-    despedirse()
+    nombre = input("introduce tu nombre: ")
+    despedirse(nombre)
     input("presione enter para continuar")
