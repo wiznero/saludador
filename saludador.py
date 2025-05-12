@@ -6,7 +6,7 @@ def saludo2():
 
 
 def saludo3():
-    print("hola caracopa")
+    print("hola caracola")
 
 def despedirse():
     print("chao pescao")
