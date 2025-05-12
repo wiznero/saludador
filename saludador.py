@@ -9,14 +9,11 @@ def saludo3():
     print("hola caracopa")
 
 def despedirse():
-    print("me las piro vampiro")
-
-def despiderse2():
-    print("marcho que teño que marchar")
+    print("chao pescao")
 
 
 
-opcion = input("introduces una opcion (1,2 o 3): ")
+opcion = input("introduces una opcion (1,2,3 o 4): ")
 
 if opcion == "1":
     saludo1()
@@ -26,4 +23,7 @@ elif opcion == "3":
     input("presione enter para continuar")
 elif opcion == "3":
     saludo2()
+    input("presione enter para continuar")
+elif opcion == "4":
+    despedirse()
     input("presione enter para continuar")
