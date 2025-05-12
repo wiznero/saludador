@@ -5,10 +5,9 @@ Este es un proyecto de ejemplo para saludar de diferentes maneras.
 ## Funcionalidades
 
 - Saluda con un mensaje predeterminado.
-- Saluda en diferentes idiomas.
-- Saluda a una persona personalizada.
-- Saluda por la tarde.
+- Despedida con un mensaje predeterminado.
+- solución de un fallo ortografico
 
 ## Versión
-Versión: 1.1.1
+Versión: 2.0.0
 
